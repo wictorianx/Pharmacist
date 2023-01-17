@@ -1,0 +1,20 @@
+{
+    "cards": [
+        {
+            "card_id": "0",
+            "owner_tc": "12345678910",
+            "owner_name": "Ali Kuscu",
+            "valid_thru": "04/24",
+            "num": "4446 7600 0000 0000",
+            "content": "130"
+        },
+        {
+            "card_id": "1",
+            "owner_tc": "12345678910",
+            "owner_name": "Ali Kuscu",
+            "valid_thru": "07/27",
+            "num": "1234 1928 1200 0000",
+            "content": "10"
+        }
+    ]
+}

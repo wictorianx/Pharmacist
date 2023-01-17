@@ -1,0 +1,83 @@
+.field{
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  align-items: center;
+  display: block;
+  color : gray;
+  border-radius: 25px;
+  background-color: #ef315d;
+  font-weight: bold;
+  opacity: 0.8;
+  border: none;
+  color: white;
+  
+  
+}
+button{
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  align-items: center;
+  display:block;
+  background-color: #ab2846;
+  border-radius: 25px;
+  color: white;
+  font-family: "Alegrea";
+  font-weight: bold;
+  opacity: 0.8;
+  border: none;
+}
+button:hover{
+  background-color: #7d0520;
+  border: solid 2px black;
+}
+#input-field-container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+
+  font-family: Arial;
+  background-image: url("pills.webp");
+}
+  
+/* #logo{
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: -110%;
+  left: 50%;
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  text-align:center;
+  vertical-align: middle;
+  line-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+} */
+#logoimg{
+  margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -65%);
+    transform: translate(-50%, -65%);
+    opacity: 0.9;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  font-family: "Alegreya";
+}

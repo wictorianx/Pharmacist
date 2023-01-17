@@ -1,0 +1,12 @@
+table, th, td {
+    border: 1px solid black;
+  }
+button{
+  /* width:340px;
+  height:60px; */
+  width:100%;
+}
+div{
+  width:fit-content;
+}
+
