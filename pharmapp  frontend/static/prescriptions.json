@@ -1,7 +1,0 @@
-let prescriptions = [
-    { "prescription_id":"0", "owners_tc":"12345678910", "drug" : "Parol"},
-    { "prescription_id":"0", "owners_tc":"12345678910", "drug" : "Calpol"},
-    { "prescription_id":"1", "owners_tc":"19876543210", "drug" : "Dolorex"},
-    // { "prescription_id":"1", "owners_tc":"19876543210", "drug" : "Lansor"},
-    // { "prescription_id":"1", "owners_tc":"19876543210", "drug" : "Arveles"}
-  ];
