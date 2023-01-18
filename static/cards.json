@@ -1,0 +1,28 @@
+{
+    "cards": [
+        {
+            "card_id": "0",
+            "owner_tc": "12345678910",
+            "owner_name": "Salih Zeki",
+            "valid_thru": "04/24",
+            "num": "4446 7600 0000 0000",
+            "content": "1250"
+        },
+        {
+            "card_id": "1",
+            "owner_tc": "12345678910",
+            "owner_name": "Salih Zeki",
+            "valid_thru": "07/27",
+            "num": "1234 1928 1200 0000",
+            "content": "10"
+        },
+        {
+            "card_id": "2",
+            "owner_tc": "19876543210",
+            "owner_name": "Cahit Arf",
+            "valid_thru": "03/27",
+            "num": "4587 3408 3459 8923",
+            "content": "9413"
+        }
+    ]
+}

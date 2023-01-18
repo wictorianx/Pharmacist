@@ -1,0 +1,7 @@
+let accounts = [
+    { "TCX":"12345678910", "password":"123abc..", "sgk" : "90"},
+    { "TCX":"19876543210", "password":"dsf687..", "sgk" : "0" }
+  ]
+
+
+

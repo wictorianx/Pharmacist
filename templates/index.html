@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+ <head>
+    <title>
+        DOCUMENT
+    </title>
+    <script type = "text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script>
+
+function main(){
+    {
+               var name = "Ensar"
+               var nickname = "Apo"
+    
+                postData = {name: name, nickname: nickname, callback: "newMessage"};
+    
+            $.ajax({
+                type: "POST",
+                url: "http://127.0.0.1:5000/json",
+                data: JSON.stringify(postData),
+                contentType: "application/json",
+                dataType: "json",
+                done: function() {
+                    // Clear out the posted message...
+                    let x = 0
+                },
+                fail: function(e) {
+                    confirm("Error", e.message);
+                }
+            });
+            // prevent default posting of form (since we're making an Ajax call)...
+            
+        }
+}
+main()
+
+    </script>
+ </head>   
+ <body>
+    <h1>
+        Sample
+    </h1>
+ </body>
+</html>
