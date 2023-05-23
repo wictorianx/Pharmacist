@@ -15,7 +15,9 @@ import bilgi
 
 app = Flask(__name__)
 
-
+@app.route('/loginx')
+def login():
+    return render_template('login.html')
 @app.route('/')
 def hello():
     return render_template('index.html')
@@ -58,9 +60,7 @@ def hellos():
 def buy():
     
     return render_template('buy.html')
-@app.route('/login')
-def login():
-    return render_template('login.html')
+
 @app.route('/prescriptions')
 def prescriptions():
     return render_template('prescriptions.html')

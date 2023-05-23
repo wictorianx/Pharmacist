@@ -76,11 +76,11 @@ function returnHome(){
       ////console.log(iter)
     if (iter === 6){
         ////console.log(1423412342)
-        window.location.href="login"
+        window.location.href="loginx"
     }
     
 }
-function home(){window.location.href = "login"}
+function home(){window.location.href = "loginx"}
 function parseCards(tc){
     let val = []
     ////console.log("CARDS",cards)
